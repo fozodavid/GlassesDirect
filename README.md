@@ -7,21 +7,22 @@ The function's input is a string and the output is a dictionary of:
 
 The function checks for illegal inputs, raising TypeError if it is not a string. Also it does not count invalid characters like commas, ampersands and other symbols. Vowels and consonants are limited to the English language.
 
-## Example
+
+## Installation
+
+Installation is simple. Clone the repo as you would usually do.
+```
+git clone https://github.com/fozodavid/GlassesDirect.git .
+```
+
+## Usage
 ```
 >>> from vowelsCheck import vowelsCheck
 >>> vowelsCheck("Hello World!")
 {"e":1,"o":2,"consonants":7}
 ```
 
-## Installation
-
-Installation is simple clone the repo as you would usually do.
-```
-git clone https://github.com/fozodavid/GlassesDirect.git .
-```
-
-## Usage
+## Tests
 
 Run the tests by:
 ```
