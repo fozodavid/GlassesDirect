@@ -12,7 +12,7 @@ class TestVowelFunction(unittest.TestCase):
         self.assertEqual(result, self.expected)
 
     def test_all_consonants(self):
-        string = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"  # 10 chars
+        string = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
         self.expected['consonants'] = 42
         result = vowelsCheck(string)
         self.assertEqual(result, self.expected)
